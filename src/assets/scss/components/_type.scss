@@ -1,0 +1,10 @@
+// Regular	"ff-tisa-web-pro"	400	normal	
+// Regular Italic	"ff-tisa-web-pro"	400	italic	
+// Bold	"ff-tisa-web-pro"	700	normal	
+// Bold Italic	"ff-tisa-web-pro"	700	italic
+
+.legal__Heading {
+	font-size: rem-calc(24);
+	margin-top: rem-calc(36);
+	border-bottom: 1px solid $medium-gray;
+}

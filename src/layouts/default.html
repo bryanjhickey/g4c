@@ -1,0 +1,71 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="http://g4c-oz.com/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://g4c-oz.com/assets/img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grapplers for Christ Australia // A Community of Christians who Grapple.</title>
+    <script src="https://use.typekit.net/ryr3fqj.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://use.fontawesome.com/a7d2aeea48.js"></script>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    
+    <meta name="keywords" content="grapplers for christ, jesus, brazilian jiu jitsu, community, serve, mission, missional, disciples, baptism, grapple-a-thon" />
+
+    <meta name="author" content="Grapplers for Christ" />
+    <!-- <meta name="google-site-verification" content="Z3-w5CTtpXNnAGFtfoXy6lt8Hhe5sE8saZF5Bv4DBwE" /> -->
+    <meta name="description" content="Grapplers for Christ Australia is a community of Christians who grapple. We share the common mission to love, gather and serve the grappling community and those in need" />
+    <link rel="canonical" href="http://g4c-oz.com">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="Grapplers for Christ Australia // A Community of Christians who Grapple."/>
+    <meta property="og:image" content="http://g4c-oz.com/assets/img/facebook.jpg" />
+    <meta property="og:url" content="http://g4c-oz.com/" />
+    <meta property="fb:app_id" content="410671325945139" />
+    <meta property="og:description" content="Grapplers for Christ Australia is a community of Christians who grapple. We share the common mission to love, gather and serve the grappling community and those in need." />
+
+    <!-- Twitter Meta Data -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:url" content="http://g4c-oz.com/"/>
+    <meta name="twitter:title" content="Grapplers for Christ Australia // A Community of Christians who Grapple" />
+    <meta name="twitter:description" content="Grapplers for Christ Australia is a community of Christians who grapple. We share the common mission to love, gather and serve the grappling community and those in need."/>
+    <meta name="twitter:image" content="http://g4c-oz.com/assets/img/twitter.jpg" />
+  </head>
+  <body>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    
+    <!-- 
+    <div class="draft">
+      <p><strong>WARNING: THIS IS A DRAFT</strong><br>All layout, images, colours and text are subject to change. <a href="mailto:hello@happywidget.co?subject=G4C Website Feedback">Feedback welcome</a></p>
+    </div> -->
+
+    {{> body}}
+
+    {{> footer}}
+    
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHN11fbnNxgpLiqoUnOpKr_GlLmL4Mbsc"></script>
+    <script src="{{root}}assets/js/app.js"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '410671325945139',
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+      };
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>
