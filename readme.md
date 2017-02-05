@@ -1,5 +1,6 @@
-# ZURB Template
+# Grapplers for Christ Australia
 
+### [ BUILT WITH ZURB'S FOUNDATION ]
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
 **Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
