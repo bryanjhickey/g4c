@@ -51,12 +51,12 @@
     {{> footer}}
     
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHN11fbnNxgpLiqoUnOpKr_GlLmL4Mbsc"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=[API_KEY]"></script>
     <script src="{{root}}assets/js/app.js"></script>
     <script>
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '410671325945139',
+          appId      : '[FB_APP_ID]',
           xfbml      : true,
           version    : 'v2.8'
         });
@@ -71,7 +71,7 @@
     </script>
      <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-91421488-1','auto');ga('send','pageview')
+            ga('create','[GA_TRACKING]','auto');ga('send','pageview')
     </script>
       <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </script>
